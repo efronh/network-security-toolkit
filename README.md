@@ -4,7 +4,7 @@ IT ve SOC operasyonları için geliştirilmiş temel Python ağ güvenliği ara�
 
 ## Araçlar
 
-### 1. Ping Sweeper
+### 1. Host Alive Checker
 Ağdaki cihazların aktif olup olmadığını otomatik olarak kontrol eder.
 
 **Neden gerekli:** Her cihazı tek tek manuel kontrol etmek hem yavaş hem de 
@@ -13,7 +13,7 @@ aynı anda tarar — hızlı ve eksiksiz.
 
 **Kullanım:**
 ```bash
-python ping_sweeper.py
+python host_alive_checker.py
 ```
 
 ### 2. Port Tarayıcı
